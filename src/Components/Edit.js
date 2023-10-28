@@ -173,7 +173,6 @@ const Edit = ({ id, updateUserData }) => {
                                                 Update Data
                                             </button>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
