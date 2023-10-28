@@ -34,7 +34,7 @@ const Edit = ({ id, updateUserData }) => {
     const doeFormHasError = () => {
         let msg = ''
         let field = ''
-        let filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        let filter = /^([a-zA-Z0-9_])+(([a-zA-Z0-9])+\.)+([a-zA-Z0-9]{2,4})+$/;
         let error = false
         if (userData.name.trim().length < 3) { // validate name
             error = true
